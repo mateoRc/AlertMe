@@ -1,0 +1,24 @@
+{
+  "name": "face-puppet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateoRc/face-puppet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateoRc/face-puppet/issues"
+  },
+  "homepage": "https://github.com/mateoRc/face-puppet#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "puppeteer": "^3.3.0"
+  }
+}
