@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mateoRc/face-puppet#readme",
   "dependencies": {
+    "nodemailer": "^6.4.8",
     "puppeteer": "^3.3.0"
   }
 }
