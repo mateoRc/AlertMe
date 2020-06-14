@@ -24,8 +24,7 @@ let res = (async () => {
 
                 mutation.forEach((mutation) => {
                     if (mutation.type === 'childList') {
-                        console.log('new Element!'); //  prints in devtools!
-                        return 1; 
+                        console.log('new <li> Element!'); // prints in devtools! 
                     } 
                 });
 
@@ -36,23 +35,7 @@ let res = (async () => {
             listElementObserver.observe(msgArea, {attributes: true, childList: true, subtree: true})
         });
 
-        // test
-        console.log('res1' + res1);
-        return res1;
     } catch (e) {
         console.log(e);
     }
 })();
-
-/* TODO
-console.log(res1)
-(async (res) => {
-    if (res = 1) {
-        console.log('new element!');
-    }
-})();
-
-function triggerEmail() {
-    console.log('it works! (te)');
-}
-*/
